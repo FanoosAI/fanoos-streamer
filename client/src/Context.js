@@ -14,18 +14,21 @@ const ContextProvider = ({ children }) => {
   const [name, setName] = useState('');
   const [call, setCall] = useState({});
   const [me, setMe] = useState('');
+  const [streamType, setStreamType] = useState(0);
 
   const myVideo = useRef();
   const userVideo = useRef();
   const connectionRef = useRef();
 
   useEffect(() => {
-    navigator.mediaDevices.getUserMedia({ video: true, audio: true })
-      .then((currentStream) => {
-        setStream(currentStream);
 
-        myVideo.current.srcObject = currentStream;
-      });
+      navigator.mediaDevices.getDisplayMedia({ video: true, audio: true })
+          .then((currentStream) => {
+              setStream(currentStream);
+
+              myVideo.current.srcObject = currentStream;
+          });
+      setStreamType(3);
 
     socket.on('me', (id) => setMe(id));
 
@@ -80,6 +83,22 @@ const ContextProvider = ({ children }) => {
     window.location.reload();
   };
 
+  /*
+  0 = no media
+  1 = voice
+  2 = video
+  3 = screen
+  * */
+  const streamVoice = () => {
+  };
+
+  const streamWebcam = () => {
+  };
+
+  const streamScreen = () => {
+
+  };
+
   return (
     <SocketContext.Provider value={{
       call,
@@ -94,6 +113,7 @@ const ContextProvider = ({ children }) => {
       callUser,
       leaveCall,
       answerCall,
+      streamScreen
     }}
     >
       {children}

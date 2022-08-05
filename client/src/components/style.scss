@@ -1,0 +1,25 @@
+#button-container {
+  display: none;
+  justify-content: space-around;
+  align-items: center;
+  width: inherit;
+}
+
+#audio-button {
+  border-radius: 50px;
+}
+
+* {
+}
+
+#text {
+  text-align: right;
+  font-family: "IRANYekanWeb(FaNum) Light", serif;
+}
+
+#video-player-container {
+  background-color: #ffffff69;
+  box-shadow: 0 30px 35px 5px rgba(255, 255, 255, 0.383),
+  0 30px 35px 5px rgba(255, 255, 255, 0.335),
+  0 -35px 35px 5px rgba(255, 255, 255, 0.335);
+}
