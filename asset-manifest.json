@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/fanoos-streamer/static/css/main.b1de1770.chunk.css",
+    "main.css": "/fanoos-streamer/static/css/main.6601dea6.chunk.css",
     "main.js": "/fanoos-streamer/static/js/main.74b383f3.chunk.js",
     "main.js.map": "/fanoos-streamer/static/js/main.74b383f3.chunk.js.map",
     "runtime-main.js": "/fanoos-streamer/static/js/runtime-main.583aea00.js",
@@ -8,14 +8,14 @@
     "static/js/2.ec9efa79.chunk.js": "/fanoos-streamer/static/js/2.ec9efa79.chunk.js",
     "static/js/2.ec9efa79.chunk.js.map": "/fanoos-streamer/static/js/2.ec9efa79.chunk.js.map",
     "index.html": "/fanoos-streamer/index.html",
-    "static/css/main.b1de1770.chunk.css.map": "/fanoos-streamer/static/css/main.b1de1770.chunk.css.map",
+    "static/css/main.6601dea6.chunk.css.map": "/fanoos-streamer/static/css/main.6601dea6.chunk.css.map",
     "static/js/2.ec9efa79.chunk.js.LICENSE.txt": "/fanoos-streamer/static/js/2.ec9efa79.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/fanoos-streamer/static/media/lake.64b15239.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.583aea00.js",
     "static/js/2.ec9efa79.chunk.js",
-    "static/css/main.b1de1770.chunk.css",
+    "static/css/main.6601dea6.chunk.css",
     "static/js/main.74b383f3.chunk.js"
   ]
 }
